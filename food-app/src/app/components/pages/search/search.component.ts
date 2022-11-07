@@ -10,12 +10,12 @@ export class SearchComponent implements OnInit {
 
   searchTerm = '';
 
-  constructor(activated_route:ActivatedRoute, private _router:Router) {
-    activated_route.params.subscribe((params) => {
+  constructor(_activatedroute:ActivatedRoute, private _router:Router) {
+    _activatedroute.params.subscribe((params) => {
       if(params.searchTerm)
       this.searchTerm = params.searchTerm;
     })
-   }
+  }
 
   ngOnInit(): void {
   }

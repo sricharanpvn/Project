@@ -7,13 +7,15 @@ import { HeaderComponent } from './components/partials/header/header.component';
 import { HomeComponent } from './components/pages/home/home.component';
 import { RatingModule } from 'ng-starrating';
 import { SearchComponent } from './components/pages/search/search.component';
+import { FoodDetailComponent } from './components/pages/home/food-detail/food-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    SearchComponent
+    SearchComponent,
+    FoodDetailComponent
   ],
   imports: [
     BrowserModule,
