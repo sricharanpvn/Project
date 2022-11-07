@@ -1,0 +1,56 @@
+ul{
+  list-style: none;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* margin:0px; */
+  /* text-align: center; */
+  align-items: center;
+  padding: 30px;
+
+  /* padding: 0px; */
+
+  /* background-image: url('/assets/home-background.jpg');
+  background-size: contain; */
+  /* background-position: right; */
+}
+img{
+  height: 250px;
+  width: 300px;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+a{
+  text-decoration: none;
+  margin:15px;
+}
+.content{
+  padding-left: 21px;
+  padding-right: 21px;
+  /* background-image: url('/assets/home-contents.jpg');
+  background-size: cover;
+  background-position: top; */
+}
+.name{
+  color: rgba(255, 0, 0, 0.603);
+  font-weight: bold;
+  font-style: oblique;
+  display: flex;
+  justify-content: space-between;
+}
+.favorite{
+  color: rgba(109, 99, 99, 0.966);
+  font-weight: bold;
+}
+.product-item-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.cook-time{
+  color: white;
+  font-weight: bold;
+}
+.price{
+  color: black;
+}

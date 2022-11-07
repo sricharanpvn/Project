@@ -1,0 +1,14 @@
+5. Search Component
+    *Adding a Method to the Food Service
+    displaying food items related to searchquary
+    *Adding asearch route
+    *Showing search result in home Component
+    *Generating the SeARCH Component
+        -adding to the home (re-using)
+        -Adding Typescript, HTML, CSS
+
+6. Food Page:
+    1. Adding a method in a Service
+    2. Generating a Component (food-detail)
+        *Adding route
+        *Adding TS, HTML, CSS

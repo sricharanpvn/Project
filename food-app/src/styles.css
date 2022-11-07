@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  margin: 0;
+  background-color:rgb(252, 241, 241);
+  /* background-image: url('/assets/menu-header - Copy (2).jpg');
+  background-size: cover;
+  background-position: bottom; */
+  /* background-image: url('/assets/background-image.jpg'); */
+  /* background-image: url(https://media.istockphoto.com/photos/wooden-wall-texture-wood-background-picture-id513801912);
+  background-position: bottom;
+  background-size: cover; */
+  /* background-color:#eaeaea; */
+  /* eae2d8; */
+  /* ffedd1; */
+
+}
