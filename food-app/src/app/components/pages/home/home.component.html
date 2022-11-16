@@ -1,4 +1,13 @@
 <app-search></app-search>
+
+<app-not-found
+  [visible]="!foods || !foods.length"
+  notFoundMessage="Oops!
+  We could not understand what you mean, try rephrasing the query."
+  resetLinkText="Go to Home Page"
+></app-not-found>
+
+
 <ul>
   <li *ngFor="let food of foods">
     <a routerLink="/food/ {{ food.id }} ">
@@ -6,7 +15,7 @@
       <div class="content">
         <div class="name">
           {{ food.name }}
-          <span class="favorite {{ food.favorite ? '' : 'not' }}">&hearts;</span>
+          <span class="favorite {{ food.favorite ? '' : 'not' }}">&#x2764;</span>
         </div>
         <div class="stars">
           <star-rating [value]="food.stars" [totalstars]="5" checkedcolor="red" uncheckedcolor="black" size="22px"

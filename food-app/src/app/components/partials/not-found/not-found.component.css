@@ -1,0 +1,17 @@
+div{
+  text-align: center;
+  padding-top: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div p{
+  padding: 15px;
+  font-size:large;
+}
+div a{
+  text-decoration: none;
+  border: 10px solid red;
+  border-radius: 100px;
+  background-color: red;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

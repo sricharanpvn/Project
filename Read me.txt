@@ -1,14 +1,51 @@
-5. Search Component
-    *Adding a Method to the Food Service
-    displaying food items related to searchquary
-    *Adding asearch route
-    *Showing search result in home Component
-    *Generating the SeARCH Component
-        -adding to the home (re-using)
-        -Adding Typescript, HTML, CSS
-
-6. Food Page:
-    1. Adding a method in a Service
-    2. Generating a Component (food-detail)
-        *Adding route
-        *Adding TS, HTML, CSS
+1. Introduction of the application
+2. Install Development Tools
+3. Create an Angular application
+4. Added Header 
+    i. Components 
+    ii. Add Html
+    iii. Add CSS
+5. Add the Food List
+    i. Create a Food Model
+    ii. Create data
+    iii. Add Images to the assets
+    iv. Create Food Service
+    v. Create Component - Home Component
+        - Html
+        - CSS
+        - Typescript
+6. Search Component
+   i. Adding a method to the Food Service -displaying food items related to searchquary
+   ii. Adding the Search Route
+   iii. Showing Search Result in the Home Component
+   iv. Generating the Search Component
+        *Adding it to thr home(re-using)
+        *Adding Typescript
+        *Adding Html
+        *Adding CSS
+7. Food Page
+    i. Adding a method in a service 
+    ii. Generating a Component(food-detail)
+        *Adding Route
+        *Adding TS 
+        *Adding Html
+        *Adding CSS
+8. Card Page
+    i.Cart Item Model
+    ii.Cart Model
+    iii. Cart Service
+    iv. Add to Cart Buttton Validation
+    v. Cart Page Component
+        *Adding Route
+        *Adding TS 
+        *Adding Html
+        *Adding CSS
+9. Food not found!
+    i. Generate Component - not found
+        *Adding TS 
+        *Adding Html
+        *Adding CSS
+    ii. Adding the Component to Pages
+        *Home Page
+        *Food Page
+        *Cart Page

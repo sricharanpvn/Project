@@ -8,6 +8,8 @@ import { HomeComponent } from './components/pages/home/home.component';
 import { RatingModule } from 'ng-starrating';
 import { SearchComponent } from './components/pages/search/search.component';
 import { FoodDetailComponent } from './components/pages/home/food-detail/food-detail.component';
+import { CartPageComponent } from './components/pages/cart-page/cart-page.component';
+import { NotFoundComponent } from './components/partials/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { FoodDetailComponent } from './components/pages/home/food-detail/food-de
     HeaderComponent,
     HomeComponent,
     SearchComponent,
-    FoodDetailComponent
+    FoodDetailComponent,
+    CartPageComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,

@@ -12,8 +12,6 @@ export class HomeComponent implements OnInit {
 
   foods:Food[]=[];
 
-
-
   constructor(private _foodservice:FoodService, _activatedroute:ActivatedRoute) {
     _activatedroute.params.subscribe((parms)=>{
       if(parms.searchTerm)

@@ -1,1 +1,34 @@
-<p>food-detail works!</p>
+<div *ngIf="food" class="container">
+  <img [src]="food.imageUrl" [alt]="food.name">
+  <div class="content">
+    <div class="head">
+      <span class="name">{{ food.name }}</span>
+      <a href="#" class="favorite {{ food.favorite ? '' : 'not' }}">&#x2764;</a>
+    </div>
+    <div class="stars">
+      <star-rating [value]="food.stars" [totalstars]="5" checkedcolor="red" uncheckedcolor="black" size="27px"
+        [readonly]="true">
+      </star-rating>
+    </div>
+      <div class="origins">
+        <span *ngFor="let origin of food.origins">
+          {{ origin }}
+        </span>
+      </div>
+      <div class="tags">
+        <a *ngFor="let tags of food.tags" routerLink="/tag/{{tags}}">
+          {{ tags }}
+        </a>
+      </div>
+      <div class="cook-time">
+        <span>🕒 Time taken to Cook this Food:</span>
+        <strong>{{ food.cookTime }}</strong> Mins
+      </div>
+    <div class="price">
+      <span>{{ food.price | currency:'INR' }}</span>
+    </div>
+
+    <button (click)="addToCart()">Add To Cart</button>
+
+  </div>
+</div>

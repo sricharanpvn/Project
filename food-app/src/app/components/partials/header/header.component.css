@@ -7,7 +7,7 @@
   margin:0px;
   text-align: center;
   align-items:flex-end;
-  /* background-image: url('/assets/background-header.jpg'); */
+  background-image: url('/assets/background-header.jpg');
   /* background-image: url('/assets/menu-header.jpg'); */
   background-size:cover;
   background-position: bottom;

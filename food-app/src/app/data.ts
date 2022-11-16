@@ -75,7 +75,7 @@ export const food_items_list: Food[]=[
     favorite: false,
     origins: ['chinese'],
     stars: 5,
-    imageUrl:'/assets/chickenMandi.jfif',
+    imageUrl:'/assets/ChickenNoodles.jfif',
     tags: ['chinese', 'chicken', 'Non-veg', 'spicy']
   },
   {
@@ -84,90 +84,112 @@ export const food_items_list: Food[]=[
     cookTime: '15-30',
     price: 270,
     favorite: false,
-    origins: ['Hyderabad'],
+    origins: ['chinese'],
     stars: 5,
-    imageUrl:'/assets/chickenMandi.jfif',
-    tags: ['hyderabadi', 'chicken', 'Non-veg', 'mandi', 'indian', 'biryani', 'spicy']
+    imageUrl:'/assets/ChickenSchezwanNoodles.jfif',
+    tags: ['hyderabadi', 'chicken', 'Non-veg', 'spicy']
   },
   {
     id: 9,
-    name: 'Chicken Mandi',
+    name: 'Chicken Fried Rice',
     cookTime: '15-30',
-    price: 270,
+    price: 149,
     favorite: false,
-    origins: ['Hyderabad'],
+    origins: ['chinese'],
     stars: 5,
-    imageUrl:'/assets/chickenMandi.jfif',
-    tags: ['hyderabadi', 'chicken', 'Non-veg', 'mandi', 'indian', 'biryani', 'spicy']
+    imageUrl:'/assets/ChickenFriedRice.jfif',
+    tags: ['chinese', 'chicken', 'Non-veg', 'spicy']
   },
   {
     id: 10,
-    name: 'Chicken Mandi',
+    name: 'Chicken Schezwan Fried Rice',
     cookTime: '15-30',
     price: 270,
     favorite: false,
-    origins: ['Hyderabad'],
+    origins: ['chinese'],
     stars: 5,
-    imageUrl:'/assets/chickenMandi.jfif',
-    tags: ['hyderabadi', 'chicken', 'Non-veg', 'mandi', 'indian', 'biryani', 'spicy']
+    imageUrl:'/assets/SzechuanChickenFriedRice.jfif',
+    tags: ['hyderabadi', 'chicken', 'Non-veg', 'spicy']
   },
   {
-    id: 1,
-    name: 'Chicken Mandi',
+    id: 11,
+    name: 'Egg Noodles',
     cookTime: '15-30',
-    price: 270,
+    price: 149,
     favorite: false,
-    origins: ['Hyderabad'],
+    origins: ['chinese'],
     stars: 5,
-    imageUrl:'/assets/chickenMandi.jfif',
-    tags: ['hyderabadi', 'chicken', 'Non-veg', 'mandi', 'indian', 'biryani', 'spicy']
+    imageUrl:'/assets/Egg Noodles.jfif',
+    tags: ['chinese', 'egg', 'Non-veg', 'spicy']
   },
   {
     id: 12,
-    name: 'Chicken Mandi',
+    name: 'Egg Rice',
     cookTime: '15-30',
-    price: 270,
+    price: 149,
     favorite: false,
-    origins: ['Hyderabad'],
+    origins: ['chinese'],
     stars: 5,
-    imageUrl:'/assets/chickenMandi.jfif',
-    tags: ['hyderabadi', 'chicken', 'Non-veg', 'mandi', 'indian', 'biryani', 'spicy']
+    imageUrl:'/assets/EggRice.jfif',
+    tags: ['chinese', 'egg', 'Non-veg', 'spicy']
   },
   {
     id: 13,
+    name: 'Veg Noodles',
+    cookTime: '15-30',
+    price: 149,
+    favorite: false,
+    origins: ['chinese'],
+    stars: 5,
+    imageUrl:'/assets/VegNoodles.jfif',
+    tags: ['chinese', 'egg', 'Non-veg', 'spicy']
+  },
+  {
+    id: 14,
+    name: 'Veg Rice',
+    cookTime: '15-30',
+    price: 149,
+    favorite: false,
+    origins: ['chinese'],
+    stars: 5,
+    imageUrl:'/assets/VegRice.jfif',
+    tags: ['chinese', 'egg', 'Non-veg', 'spicy']
+  },
+  {
+    id: 15,
     name: 'Paneer Tikka Kebab',
     cookTime: '20',
     price: 250,
     favorite: false,
     origins: ['Hyderabad'],
     stars: 5,
-    imageUrl:'/assets/chickenMandi.jfif',
+    imageUrl:'/assets/PaneerTikkaKebabs.jpg',
     tags: ['hyderabadi', 'Paneer', 'veg', 'indian', 'spicy']
   },
   {
-    id: 14,
+    id: 16,
     name: 'Chicken Tikka Kebab',
     cookTime: '30',
     price: 320,
     favorite: false,
     origins: ['Hyderabad'],
     stars: 5,
-    imageUrl:'/assets/chickenMandi.jfif',
+    imageUrl:'/assets/chicken-tikka-kebab.jpg',
     tags: ['hyderabadi', 'chicken', 'Non-veg', 'Kebab', 'indian', 'biryani', 'spicy']
   },
   {
-    id: 15,
+    id: 17,
     name: 'Egg Biryani',
     cookTime: '15-30',
     price: 220,
     favorite: false,
     origins: ['Hyderabad'],
     stars: 5,
-    imageUrl:'/assets/chickenMandi.jfif',
+    imageUrl:'/assets/eggBiriyani.jpg',
     tags: ['egg biriyani', 'egg', 'Non-veg','indian', 'biryani', 'spicy']
   },
   {
-    id: 16,
+    id: 18,
     name: 'Coke Pet 750ML',
     cookTime: '',
     price: 38,
@@ -178,7 +200,7 @@ export const food_items_list: Food[]=[
     tags: ['drink', 'cool-drink', 'Cooldrink']
   },
   {
-    id: 17,
+    id: 19,
     name: 'Thums Up Pet 750ML',
     cookTime: '',
     price: 38,
@@ -189,7 +211,7 @@ export const food_items_list: Food[]=[
     tags: ['drink', 'cool-drink', 'Cooldrink']
   },
   {
-    id: 18,
+    id: 20,
     name: 'Sprite Pet 750ML',
     cookTime: '',
     price: 38,
@@ -200,7 +222,7 @@ export const food_items_list: Food[]=[
     tags: ['drink', 'cool-drink', 'Cooldrink']
   },
   {
-    id: 19,
+    id: 21,
     name: 'Double Ka Meetha',
     cookTime: '10',
     price: 69,
@@ -211,7 +233,7 @@ export const food_items_list: Food[]=[
     tags: ['sweet', 'Double Ka Meetha', 'Meetha']
   },
   {
-    id: 20,
+    id: 22,
     name: 'Gulab Jamun',
     cookTime: '10',
     price: 69,
