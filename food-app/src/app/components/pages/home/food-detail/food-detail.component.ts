@@ -11,12 +11,17 @@ import { FoodService } from 'src/app/shared/services/food.service';
 })
 export class FoodDetailComponent implements OnInit {
 
-  food!: Food;
+  // food!: Food;
+  food!: any;
+
 
   constructor(private _food:FoodService, private _router:Router, private _cartService:CartService, _activatedroute:ActivatedRoute) {
     _activatedroute.params.subscribe((params)=>{
       if(params.id)
-      this.food = _food.getFoodById(params.id);
+      // this.food = _food.getFoodById(params.id);
+      _food.getFoodById(params.id).subscribe((serverFood)=>{
+        this.food = serverFood;
+      });
     })
    }
 
@@ -25,7 +30,7 @@ export class FoodDetailComponent implements OnInit {
 
   addToCart(){
     this._cartService.addToCart(this.food);
-    this._router.navigateByUrl('/cart-page')
+    // this._router.navigateByUrl('/cart-page')
   }
 
 }

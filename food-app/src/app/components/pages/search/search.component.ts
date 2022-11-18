@@ -8,7 +8,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class SearchComponent implements OnInit {
 
-  searchTerm = ''
+  searchTerm = '';
 
   constructor(activated_route:ActivatedRoute, private _router:Router) {
     activated_route.params.subscribe((params) => {
@@ -20,6 +20,6 @@ export class SearchComponent implements OnInit {
   ngOnInit(): void {
   }
   search(term:string){
-    this._router.navigateByUrl('search/' + term)
+    this._router.navigateByUrl('search/' + term);
   }
 }

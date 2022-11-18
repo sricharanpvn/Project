@@ -6,5 +6,5 @@ export class CartItem{
     this.food=_food;
   }
   quantity:number=1;
-  // price = this.food.price
+  price = this.food.price
 }

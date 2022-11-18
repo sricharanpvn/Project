@@ -1,0 +1,101 @@
+
+Bhavani@HP MINGW64 /f/Sri Charan/An/Sri Charan/Angular po(master)rojects/Project/food-papp (master)
+$ cd backend
+bash: cd: backend: No such file or directory
+
+Bhavani@HP MINGW64 /f/Sri Charan/Angular projects/Project/food-app (master)
+$ cd..
+bash: cd..: command not found
+
+Bhavani@HP MINGW64 /f/Sri Charan/Angular projects/Project/food-app (master)
+$ cd/
+bash: cd/: No such file or directory      
+
+Bhavani@HP MINGW64 /f/Sri Charan/Angular projects/Project/food-app (master)
+$ cd ..
+
+Bhavani@HP MINGW64 /f/Sri Charan/Angular projects/Project (master)
+$ cd backend
+
+Bhavani@HP MINGW64 /f/Sri Charan/An/Sri Charan/Angular pt/backend (masrojects/Project/backend (master)
+$ npm init -y
+Wrote to F:\Sri Charan\Angular projects\Project\backend\package.json:
+
+{
+  "name": "backend", 
+  "version": "1.0.0",  "description": "", 
+  "main": "index.js",  "scripts": {       
+    "test": "echo \"Error: no test specified\" && exit 1"      
+  },
+  "keywords": [],    
+  "author": "",      
+  "license": "ISC"   
+}
+
+
+
+Bhavani@HP MINGW64 /f/Sri Charan/Angular projects/Project/backend (master)
+$ npm install typescript
+
+added 1 package, and 
+audited 2 packages in 19s
+
+found 0 vulnerabilities
+
+Bhavani@HP MINGW64 /f/Sri Charan/Angular projects/Project/backend (master)
+$ npm install express
+
+added 57 packages, and audited 59 packages in 9s
+
+7 packages are looking for funding        
+  run `npm fund` for 
+details
+
+found 0 vulnerabilities
+
+Bhavani@HP MINGW64 /f/Sri Charan/Angular projects/Project/backend (master)
+$ npm install cors
+
+added 2 packages, and audited 61 packages 
+in 1s
+
+7 packages are looking for funding        
+  run `npm fund` for 
+details
+
+found 0 vulnerabilities
+
+Bhavani@HP MINGW64 /f/Sri Charan/Angular projects/Project/backend (mas/Sri Charan/Angular p(master)rojects/Project/backend (master)
+$ npm install ts-node --save-dev
+
+added 17 packages, and audited 88 packages in 19s
+
+7 packages are looking for funding        
+  run `npm fund` for 
+details
+
+found 0 vulnerabilities
+
+Bhavani@HP MINGW64 /f/Sri Charan/Angular projects/Project/backend (master)
+$ npm install nodemon --save-dev
+
+added 32 packages, and audited 120 packages in 7s
+
+10 packages are looking for funding       
+  run `npm fund` for 
+details
+
+found 0 vulnerabilities
+
+Bhavani@HP MINGW64 /f/Sri Charan/Angular projects/Project/backend (master)
+$ npm start
+
+> backend@1.0.0 start> cd src && nodemon server.ts
+
+[nodemon] 2.0.20
+[nodemon] to restart 
+at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: ts,json    
+[nodemon] starting `ts-node server.ts`    
+Website will be served on http://localhost:5000
