@@ -1,0 +1,46 @@
+body{
+  background-color: transparent;
+}
+.container{
+  width: 300px;
+  /* position: relative;
+  top: 60px;
+  left: 40%; */
+  background-color:rgb(247, 182, 158);
+  padding: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: flex;
+  flex-direction: column;
+  margin-left: 40%;
+  margin-top: 5%;
+  /* justify-content: space-evenly; */
+}
+label{
+ margin: 10px auto;
+ font-weight: 600;
+}
+input[type=email]{
+  margin: 8px 0;
+  width: 300px;
+}
+input[type=password]{
+  margin: 8px 0;
+}
+input{
+  width: 300px;
+  height: 30px;
+  font-size: larger;
+  border-radius: 4px 4px 4px 4px;
+  border: none;
+  outline-color: blue;
+}
+button{
+  width: 300px;
+  height: 30px;
+  font-size: larger;
+  border-radius: 4px 4px 4px 4px;
+  /* background-color: brown; */
+  border: none;
+  background: rgb(239, 79, 95);
+  color:white;
+}

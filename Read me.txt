@@ -50,3 +50,17 @@
         *Food Page
         *Cart Page
 10. Creating Backend -server 
+
+11. Login Page:
+    1. Generating Component 
+        *Adding Routes
+        *Adding TS 
+        *Adding Html
+        *Adding CSS
+    2. Importing Reactive Forms Module
+    3. Adding CSS
+    4. Adding Login API
+        * Using JSON
+        * Adding JWT (JSON Web Token) Service
+        * Testing the Token using POSTMAN
+

@@ -241,4 +241,35 @@ export const food_items_list: any[]=[
     imageUrl:'/assets/gulab-jamun.jpg',
     tags: ['sweet', 'Gulab Jamun', 'Jamun']
   },
+];
+
+export const sample_users: any[]=[
+  {
+    name:"Sri Charan",
+    email:"sricharan@gmail.com",
+    password:"123456",
+    assress:"Hyderabad-TS",
+    isAdmin:true
+  },
+  {
+    name:"Arun Kumar",
+    email:"arunkumar@gmail.com",
+    password:"123456",
+    assress:"Hyderabad-TS",
+    isAdmin:false
+  },
+  {
+    name:"Manish",
+    email:"manish@gmail.com",
+    password:"123456",
+    assress:"Hyderabad-TS",
+    isAdmin:true
+  },
+  {
+    name:"Manasa",
+    email:"manasa@gmail.com",
+    password:"123456",
+    assress:"Hyderabad-TS",
+    isAdmin:true
+  },
 ]
