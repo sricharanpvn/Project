@@ -4,7 +4,7 @@ import jwt from "jsonwebtoken";
 import { food_items_list, sample_users } from "./data";
 
 const app = express()
-app.use(express.json)
+app.use(express.json());
 app.use(cors({
     credentials: true,
     origin:['http://localhost:4200']

@@ -12,7 +12,8 @@ import { CartPageComponent } from './components/pages/cart-page/cart-page.compon
 import { NotFoundComponent } from './components/partials/not-found/not-found.component';
 import { HttpClientModule } from '@angular/common/http';
 import { SigninComponent } from './components/signin/signin.component'
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 
 @NgModule({
   declarations: [
@@ -30,7 +31,9 @@ import { FormsModule } from '@angular/forms';
     AppRoutingModule,
     RatingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

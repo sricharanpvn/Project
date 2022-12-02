@@ -36,16 +36,19 @@
   </div>
   <div class="ul">
     <ul>
-    <li><a routerLink="signin">Login</a></li>
-    <li class="dropdown">
-      <a href="#" style="padding-top: 30px;">Sri Charan</a>
+    <li *ngIf="!isAuth">
+      <a routerLink="/signin">Login</a>
+    </li>
+    <li *ngIf="user.token" class="dropdown">
+      <!-- <a href="#" style="padding-top: 30px;">Sri Charan</a> -->
+      <a routerLink="/dashboard">{{ user.name }}</a>
       <div>
-      <ul class="drop">
-        <li><a href="#">Profile</a></li>
-        <li><a href="#">Orders</a></li>
-        <li><a href="#">Logout</a></li>
-      </ul>
-    </div>
+        <ul class="drop">
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Orders</a></li>
+          <li><a (click)="logout()">Logout</a></li>
+        </ul>
+      </div>
     </li>
     <li><a routerLink="cart-page"><span>3</span><i class="fa-brands fa-opencart" style="font-size: 41px;"></i>Cart </a></li>
     </ul>

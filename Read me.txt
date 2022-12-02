@@ -63,4 +63,19 @@
         * Using JSON
         * Adding JWT (JSON Web Token) Service
         * Testing the Token using POSTMAN
+        
+12. Generate User Service
+    1. Generate User Model
+    2. Add the User Subject
+    3. Add Login Method
+        1. Add user URL's
+        2. Generate User Login Interface
+        3. Add ngx-toastr
+            1. Import Module
+            2. Import Browser Animations Module
+            3. Add styles in angular.json 
+        4. Add Login to Header
+    4. Add Local Storage methods
+    5. Add Logout Method
+        1. Add Logout to Header
 

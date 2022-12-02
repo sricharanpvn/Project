@@ -1,4 +1,4 @@
-<!-- <div class="container">
+<div class="container">
   <h1>Login / Signin</h1>
   <form [formGroup]="loginForm" (ngSubmit)="submit()">
     <div class="div">
@@ -7,7 +7,7 @@
     </div>
     <div class="error-message" *ngIf="formcontrols.email.errors && isSubmitted">
       <div *ngIf="formcontrols.email.errors.required">
-        Should not be empty.!
+        Email should not be empty.!
       </div>
       <div *ngIf="formcontrols.email.errors.email">
         Invalid Email.!
@@ -18,11 +18,11 @@
       <input type="password" formControlName="password" placeholder="Password">
     </div>
     <div class="error-message" *ngIf="formcontrols.password.errors && isSubmitted">
-      <div *ngIf="formcontrols.email.errors.required">
-        Should not be empty.!
+      <div *ngIf="formcontrols.password.errors.required">
+        Password should not be empty.!
       </div>
     </div>
     <button type="submit">Login</button>
      <p> New to FoodApp? <a routerLink="signup">Create account</a></p>
   </form>
-</div> -->
+</div>
