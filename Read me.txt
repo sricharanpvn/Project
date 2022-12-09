@@ -79,3 +79,17 @@
     5. Add Logout Method
         1. Add Logout to Header
 
+13. Connect Login API to MongoDB Atlas
+    1. Moving APIs into routers
+    2. Create MongoDB Atlas
+    3. Create .env file
+    4. Install
+        1. mongoose
+        2. dotenv
+        3. bcryptjs
+        4. jsonwebtoken
+        5. expess-asyns-handler
+        $ npm install mongoose dotenv bcryptjs express-async-handler --save
+    5. Connect to MongoDB Atlas
+    6. Use MongoDB instead of data.ts in APIs
+
